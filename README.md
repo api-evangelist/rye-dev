@@ -1,4 +1,4 @@
-# rye-dev
+# Cameron Rye
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,128 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-rye-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://rye.dev/
+Cameron Rye provides open‑source Model Context Protocol (MCP) servers and related software tools, including implementations for Bluesky, the Fediverse, and Gopher. He offers these resources to developers and AI agents who need to read or write to these platforms, and shares his portfolio, blog, and resume through a machine‑readable API.
+
+**Areas:** Open‑source · Model Context Protocol · AI Agents · TypeScript · .NET · Rust
+
+## Cameron Rye on APIs.io
+
+Everything profiled for Cameron Rye is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/rye-dev/](https://apis.io/providers/rye-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (10)
+
+- [Cameron Rye A2a API](https://apis.io/apis/rye-dev/rye-dev-a2a-api/) — The A2a API from Cameron Rye — 1 operation(s) for a2a.
+- [Cameron Rye Agent Observatory API](https://apis.io/apis/rye-dev/rye-dev-agent-observatory-api/) — The Agent Observatory API from Cameron Rye — 1 operation(s) for agent observatory.
+- [Cameron Rye Contact API](https://apis.io/apis/rye-dev/rye-dev-contact-api/) — The Contact API from Cameron Rye — 1 operation(s) for contact.
+- [Cameron Rye Health API](https://apis.io/apis/rye-dev/rye-dev-health-api/) — The Health API from Cameron Rye — 1 operation(s) for health.
+- [Cameron Rye MCP API](https://apis.io/apis/rye-dev/rye-dev-mcp-api/) — The Mcp API from Cameron Rye — 1 operation(s) for mcp.
+- [Cameron Rye Mentions API](https://apis.io/apis/rye-dev/rye-dev-mentions-api/) — The Mentions API from Cameron Rye — 1 operation(s) for mentions.
+- [Cameron Rye Newsletter API](https://apis.io/apis/rye-dev/rye-dev-newsletter-api/) — The Newsletter API from Cameron Rye — 1 operation(s) for newsletter.
+- [Cameron Rye Pulse API](https://apis.io/apis/rye-dev/rye-dev-pulse-api/) — The Pulse API from Cameron Rye — 1 operation(s) for pulse.
+- [Cameron Rye Reactions API](https://apis.io/apis/rye-dev/rye-dev-reactions-api/) — The Reactions API from Cameron Rye — 1 operation(s) for reactions.
+- [Cameron Rye Webmention API](https://apis.io/apis/rye-dev/rye-dev-webmention-api/) — The Webmention API from Cameron Rye — 1 operation(s) for webmention.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Cameron Rye Agentic Access](https://apis.io/agentic-access/rye-dev/rye-dev-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AgentObservatoryResponse](https://apis.io/schemas/rye-dev/rye-dev-agent-observatory-response/)
+- [ContactInput](https://apis.io/schemas/rye-dev/rye-dev-contact-input/)
+- [HealthResponse](https://apis.io/schemas/rye-dev/rye-dev-health-response/)
+- [MentionsResponse](https://apis.io/schemas/rye-dev/rye-dev-mentions-response/)
+- [PulseResponse](https://apis.io/schemas/rye-dev/rye-dev-pulse-response/)
+- [WebmentionInput](https://apis.io/schemas/rye-dev/rye-dev-webmention-input/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Rye Dev Context](https://apis.io/jsonld/rye-dev/rye-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Cameron Rye API Rules](https://apis.io/rules/rye-dev/rye-dev-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Cameron Rye Domain Security](https://apis.io/security/rye-dev/rye-dev-domain-security/)
+- [Cameron Rye Vulnerability Disclosure](https://apis.io/security/rye-dev/rye-dev-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://rye.dev/)
+- [Blog](https://rye.dev/blog/)
+- [Security](https://rye.dev/about/)
+- [GitHub](https://github.com/cameronrye)
+
+## API Evangelist rating
+
+**Kin Score 33.0** — thin · rubric 0.27.0 · scored 2026-11-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 53.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 0.0 |
+
+**Agent readiness 47.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/rye-dev/](https://apis.io/providers/rye-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Cameron Rye: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/rye-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
